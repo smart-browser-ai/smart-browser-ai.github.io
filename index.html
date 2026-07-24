@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7faff" />
+    <title>AI Browser — Browse smarter with AI</title>
+    <meta name="description" content="AI Browser is a fast Android browser with AI-powered page summaries, questions, translation, private browsing, news, and weather." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="AI Browser home">
+        <span>AI Browser</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#ai-tools">AI tools</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+      <a class="nav-cta" href="#download">Coming soon</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <i data-lucide="menu"></i>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation" data-mobile-menu>
+      <a href="#features">Features</a>
+      <a href="#ai-tools">AI tools</a>
+      <a href="#privacy">Privacy</a>
+      <a href="privacy_policy.html">Privacy Policy</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A browser that thinks with you</p>
+          <h1>Browse less.<br /><em>Understand more.</em></h1>
+          <p class="hero-lede">
+            Search the web, ask questions about any page, and turn long content into clear answers—all inside one fast, familiar browser.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#download"><i data-lucide="smartphone"></i> Coming soon for Android</a>
+            <a class="text-button" href="#ai-tools">See how it works <i data-lucide="arrow-down-right"></i></a>
+          </div>
+          <div class="trust-row" aria-label="Product highlights">
+            <span><i data-lucide="wand-sparkles"></i> Ask any page</span>
+            <span><i data-lucide="scan-text"></i> Instant summaries</span>
+            <span><i data-lucide="shield-check"></i> Private browsing</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="AI Browser product preview">
+          <img class="hero-product-image" src="assets/ai-browser-hero-web.png" alt="AI Browser home screen and Chat AI page summary shown on two Android phones" fetchpriority="high" />
+          <div class="glow glow-one"></div>
+          <div class="glow glow-two"></div>
+          <div class="browser-window">
+            <div class="browser-bar">
+              <div class="window-dots"><span></span><span></span><span></span></div>
+              <div class="address-bar"><i data-lucide="lock-keyhole"></i><span>search.example.com</span></div>
+              <i data-lucide="more-horizontal"></i>
+            </div>
+            <div class="browser-body">
+              <div class="search-results">
+                <div class="search-title">
+                  <span class="mini-logo"><i data-lucide="sparkles"></i></span>
+                  <div class="search-input">What makes golden retrievers friendly?</div>
+                </div>
+                <div class="result-tabs"><b>All</b><span>Images</span><span>Videos</span><span>News</span></div>
+                <article class="result-card">
+                  <small>Pet Care Journal</small>
+                  <strong>Golden Retriever Temperament &amp; Personality</strong>
+                  <p>Golden retrievers are known for their gentle, social nature and eagerness to connect with people...</p>
+                </article>
+                <article class="result-card dim">
+                  <small>Everyday Animals</small>
+                  <strong>Why are golden retrievers great family dogs?</strong>
+                  <p>Learn about their temperament, exercise needs, and training...</p>
+                </article>
+              </div>
+              <aside class="ai-panel">
+                <div class="ai-panel-head">
+                  <div><span class="ai-dot"><i data-lucide="sparkles"></i></span><strong>Ask AI</strong></div>
+                  <i data-lucide="x"></i>
+                </div>
+                <p class="source-chip"><i data-lucide="link-2"></i> Answering from this page</p>
+                <div class="ai-message">
+                  Golden retrievers are naturally social, patient, and eager to please. Early training and regular activity help them thrive as family companions.
+                </div>
+                <div class="suggestions">
+                  <button>Summarize this page</button>
+                  <button>Show key points</button>
+                  <button>Translate content</button>
+                </div>
+                <div class="prompt-box"><span>Ask anything about this page…</span><button aria-label="Send prompt"><i data-lucide="arrow-up"></i></button></div>
+              </aside>
+            </div>
+          </div>
+          <div class="floating-badge"><i data-lucide="sparkles"></i><span><b>AI-ready</b><small>on every page</small></span></div>
+        </div>
+      </section>
+
+      <section class="benefit-strip" aria-label="AI Browser benefits">
+        <p>One browser for the whole day</p>
+        <div><span>Search</span><i data-lucide="arrow-right"></i><span>Understand</span><i data-lucide="arrow-right"></i><span>Explore</span></div>
+      </section>
+
+      <section class="section-heading" id="ai-tools">
+        <p class="eyebrow"><span></span> Built-in AI</p>
+        <h2>Your shortcut from a web page<br />to a clear answer.</h2>
+        <p>Stay in context. AI Browser can work with the page you are viewing when you choose to ask, summarize, or translate.</p>
+      </section>
+
+      <section class="ai-showcase">
+        <div class="phone-shell">
+          <div class="phone-top"><span>9:41</span><div><i data-lucide="signal"></i><i data-lucide="wifi"></i><i data-lucide="battery-full"></i></div></div>
+          <div class="phone-browserbar"><i data-lucide="home"></i><span>Golden retriever</span><i data-lucide="square-stack"></i><i data-lucide="more-vertical"></i></div>
+          <div class="phone-page">
+            <small>PET ENCYCLOPEDIA</small>
+            <h3>Golden Retriever</h3>
+            <p>Friendly, intelligent, and devoted, golden retrievers are among the most popular family dogs.</p>
+            <div class="page-lines"><span></span><span></span><span></span><span></span></div>
+          </div>
+          <div class="sheet-handle"></div>
+          <div class="phone-ai">
+            <div class="phone-ai-head"><i data-lucide="expand"></i><b>Chat AI</b><i data-lucide="x"></i></div>
+            <div class="context-card"><i data-lucide="link-2"></i><span>Page content connected</span></div>
+            <div class="ai-message compact">They are friendly, intelligent, and well suited to active families. Consistent training and daily exercise are recommended.</div>
+            <div class="phone-pills"><span>Ask About Page</span><span>Summarize Page</span></div>
+            <div class="phone-prompt">Ask anything privately… <i data-lucide="arrow-up"></i></div>
+          </div>
+        </div>
+        <div class="tool-list">
+          <article class="active">
+            <span class="number">01</span>
+            <div><h3>Ask about any page</h3><p>Get answers grounded in the content you are already reading, without copying and pasting.</p></div>
+            <i data-lucide="arrow-up-right"></i>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <div><h3>Summarize in a tap</h3><p>Turn long articles and search results into a short overview with the key details intact.</p></div>
+            <i data-lucide="scan-text"></i>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <div><h3>Translate as you browse</h3><p>Understand unfamiliar content and ask follow-up questions in natural language.</p></div>
+            <i data-lucide="languages"></i>
+          </article>
+          <article>
+            <span class="number">04</span>
+            <div><h3>Write with less friction</h3><p>Draft emails, rewrite text, and get help with everyday questions from the dedicated AI space.</p></div>
+            <i data-lucide="pen-line"></i>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature-grid" id="features">
+        <article class="feature-intro">
+          <p class="eyebrow"><span></span> Beyond AI</p>
+          <h2>Everything you expect from a modern browser.</h2>
+          <p>Fast access, useful daily content, and straightforward controls—organized around the way you browse.</p>
+        </article>
+        <article class="feature-card blue">
+          <span class="feature-icon"><i data-lucide="search"></i></span>
+          <h3>Fast, familiar browsing</h3>
+          <p>Search, open tabs, save bookmarks, manage downloads, and switch to incognito mode in seconds.</p>
+          <div class="mini-search"><i data-lucide="search"></i><span>Search or type URL</span><i data-lucide="mic"></i></div>
+        </article>
+        <article class="feature-card dark">
+          <span class="feature-icon"><i data-lucide="newspaper"></i></span>
+          <h3>News worth opening</h3>
+          <p>Discover top stories and short video updates from a focused, easy-to-scan feed.</p>
+          <div class="news-preview"><span>BREAKING</span><img src="assets/news-wildfire-web.png" alt="Wildfire smoke rising over a forested mountain ridge" loading="lazy" /><b>Top stories, all in one place</b></div>
+        </article>
+        <article class="feature-card weather">
+          <span class="feature-icon"><i data-lucide="cloud-sun"></i></span>
+          <h3>Weather at a glance</h3>
+          <p>See current conditions, hourly changes, alerts, and the extended forecast for saved places.</p>
+          <div class="weather-preview"><strong>24°</strong><span><i data-lucide="cloud-sun"></i> New York<br /><small>Feels like 26°</small></span></div>
+        </article>
+      </section>
+
+      <section class="privacy-band" id="privacy">
+        <div class="privacy-copy">
+          <p class="eyebrow light"><span></span> Your controls</p>
+          <h2>Browse with clarity and control.</h2>
+          <p>Use private tabs when you need them, manage history and bookmarks from one place, and choose when page content is shared with AI features.</p>
+          <a href="privacy_policy.html">Read our Privacy Policy <i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="privacy-cards">
+          <article><i data-lucide="venetian-mask"></i><div><b>Incognito mode</b><span>Private browsing controls are always close by.</span></div></article>
+          <article><i data-lucide="mouse-pointer-click"></i><div><b>You choose when AI is used</b><span>Page-aware tools start only after you select them.</span></div></article>
+          <article><i data-lucide="sliders-horizontal"></i><div><b>Easy data controls</b><span>Access history, downloads, bookmarks, and settings in one menu.</span></div></article>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <p class="eyebrow"><span></span> Coming soon for Android</p>
+        <h2>The web is easier<br />when you can ask it anything.</h2>
+        <p>AI Browser is preparing for launch. Discover a faster way to search, understand, and explore the web.</p>
+        <a class="primary-button" href="mailto:aibrowser.support@gmail.com?subject=AI%20Browser%20Launch"><i data-lucide="mail"></i> Contact us</a>
+        <small>Launch updates will be announced here.</small>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top" aria-label="AI Browser home">
+        <span>AI Browser</span>
+      </a>
+      <div class="footer-links">
+        <a href="privacy_policy.html">Privacy Policy</a>
+        <a href="terms_of_service.html">Terms of Use</a>
+        <a href="mailto:aibrowser.support@gmail.com">Contact</a>
+      </div>
+      <p>© 2026 AI Browser. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
