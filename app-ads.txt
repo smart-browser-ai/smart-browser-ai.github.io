@@ -1,7 +1,7 @@
 # Updated at 2025/09/10 11:19:59
 
 # Admob
-google.com, pub-5454612519344873, DIRECT, f08c47fec0942fa0
+google.com, pub-9183227076133539, DIRECT, f08c47fec0942fa0
 
 # Applovin
 applovin.com,fb6a91c6f9942cfa113bc7ceef4752b3,DIRECT
